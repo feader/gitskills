@@ -20,3 +20,8 @@ var_dump($_SESSION);
 
 
 echo rand(0,1);
+
+var_dump($GLOBALS);
+
+
+echo 'asdfdasfdasfdasf';
