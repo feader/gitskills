@@ -17,3 +17,6 @@ var_dump($_SERVER);
 $_SESSION['aaa'] = 123;
 
 var_dump($_SESSION);
+
+
+echo rand(0,1);
