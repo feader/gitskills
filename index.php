@@ -6,7 +6,7 @@
  * Time: 10:38
  */
 
-echo 123456;
+echo 123456.'<br/>';
 
 for ($i=0; $i<10; $i++) {
     echo $i.'&nbsp';
