@@ -5,3 +5,5 @@ now let me do it to learn how to handle it
 now study handle different branch same file
 
 rename:develop -> dev
+
+learn bug and stash
