@@ -14,3 +14,6 @@ for ($i=0; $i<10; $i++) {
 
 var_dump($_SERVER);
 
+$_SESSION['aaa'] = 123;
+
+var_dump($_SESSION);
