@@ -6,26 +6,52 @@
  * Time: 10:38
  */
 
-echo '123456'.'<br/>';
+// function addHttp($url)
+// {
 
-for ($i=0; $i<10; $i++) {
-    echo $i.'&nbsp';
-}
+//     $url = trim($url);
 
-var_dump($_SERVER);
+//     $result = strstr($url, 'http');
 
-$_SESSION['aaa'] = 123;
+//     if ($result && $url != '') {
 
-var_dump($_SESSION);
+//         return $url;
+
+//     } else {
+
+//         return 'http://' . $url;
+
+//     }
+
+// }
+
+// $url = 'http:/www.baidu.com';
 
 
-echo rand(0,1);
+// $res = addHttp($url);
 
-var_dump($GLOBALS);
+// var_dump($res);
 
 
-echo 'asdfdasfdasfdasf';
+// function countArrayDeep($data)
+// {
+// 	if (!is_array($data)) {
+// 		return 0;
+// 	} else {
+// 		$count = 0;
+// 		foreach ($data as $key => $value) {
+// 			$count1 = countArrayDeep($value);
+// 		}
+// 		if ($count1 > $count) {
+// 			$count = $count1;
+// 		}
+// 		return $count + 1;
+// 	}
+// }
 
-echo 15615616584166;
 
-echo 'fwfqewfewfqewfqewf';
+
+
+// $arr=array('yiyi'=>1212,'haha'=>array('heihei'=>array(array("a")),"b"));
+
+// echo countArrayDeep($arr);
